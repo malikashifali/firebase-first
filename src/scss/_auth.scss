@@ -1,0 +1,42 @@
+.auth {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #fddccf 0%, #cfeffc 100%)
+}
+
+.auth-card {
+    background-color: inherit;
+}
+
+.custom-disabled-button:disabled {
+    background-color: #1677ff !important; /* Change background color */
+    color: #fff !important; /* Change text color */
+    // border-color: #bfbfbf !important; /* Change border color */
+    opacity: 1 !important; /* Override default opacity */
+  }
+
+@media (max-width: 767px) {
+    .custom-rounded-start {
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+    }
+
+    .custom-rounded-end {
+        border-bottom-left-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-rounded-start {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .custom-rounded-end {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+}
